@@ -1,6 +1,8 @@
-﻿# Risk Exception 1: Using AES-256 (SSE-S3) instead of paid AWS KMS keys to remain within AWS Free Tier
+﻿# Risk Exception 1: Using AES-256 (SSE-S3) instead of paid AWS KMS keys (/mo) to remain within AWS Free Tier
 AVD-AWS-0132
 AVD-AWS-0017
+AVD-AWS-0015
+AWS-0015
 
 # Risk Exception 2: S3 bucket is the primary audit log vault; recursive access logging omitted for cost control
 AVD-AWS-0089
